@@ -1,0 +1,9 @@
+:root {
+  --c-bg: #0e0e0e;
+  --c-bg-light: #1a1a1a;
+  --c-text: #fff;
+  --c-accent: #7c3aed;
+  --c-success: #10b981;
+  --c-error: #ef4444;
+  --font-main: 'Space Grotesk', sans-serif;
+} 

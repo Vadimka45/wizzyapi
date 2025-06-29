@@ -1,0 +1,2 @@
+export const ROLES={user:{c:'#777',icon:'👤',name:'User'},helper:{c:'#3b82f6',icon:'🛠',name:'Helper'},admin:{c:'#ef4444',icon:'🛡',name:'Admin'},owner:{c:'#eab308',icon:'👑',name:'Owner'}};
+export function badge(role){const r=ROLES[role]||ROLES.user;const span=document.createElement('span');span.className='role-badge';span.style.background=r.c;span.textContent=r.icon;span.title=r.name;return span;} 

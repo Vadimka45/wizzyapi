@@ -1,0 +1,24 @@
+<header class="navbar">
+  <a href="/" data-link class="logo">WizzyBot</a>
+  <div class="nav-right">
+    <a href="/profile" data-link id="profileBtn">👤</a>
+  </div>
+</header>
+<main class="profile-page">
+  <section class="profile-card">
+    <div class="profile-avatar" id="profileAvatar"></div>
+    <div class="profile-info">
+      <div class="profile-row"><span id="pName">Имя</span> <span class="role-badge" id="pRole"></span></div>
+      <div class="profile-row">ID: <span id="pId"></span></div>
+      <div class="profile-row">Статус: <span id="pStatus"></span></div>
+    </div>
+    <button class="btn hover-gradient" id="btnLogout">Выйти</button>
+    <button class="btn hover-gradient" id="btnEdit" style="display:none">Изменить</button>
+  </section>
+  <nav class="profile-tabs">
+    <a href="#actions" class="tab-link active" id="tabActions">Действия</a>
+    <a href="#sessions" class="tab-link" id="tabSessions">Сессии</a>
+  </nav>
+  <section class="tab-content" id="tabContent"></section>
+  <div id="profileModal" class="modal" style="display:none"></div>
+</main> 

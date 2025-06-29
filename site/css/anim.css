@@ -1,0 +1,1 @@
+.hover-gradient{position:relative;overflow:hidden} .hover-gradient::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at var(--x,50%) var(--y,50%),rgba(124,58,237,.4),transparent 60%);opacity:0;transition:opacity .3s} .hover-gradient:hover::before{opacity:1} 
